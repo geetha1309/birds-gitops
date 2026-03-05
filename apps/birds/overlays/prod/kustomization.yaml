@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: birds
+
+resources:
+  - ../../base
+
+images:
+  - name: REPLACED_BY_KUSTOMIZE
+    newName: 636362695216.dkr.ecr.eu-west-1.amazonaws.com/birds-app
+    newTag: "0.0.0"
