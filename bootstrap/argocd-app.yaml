@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/YOUR_ORG/birds-gitops.git
+    repoURL: https://github.com/geetha1309/birds-gitops.git
     targetRevision: main
     path: apps/birds/overlays/prod
   destination:
